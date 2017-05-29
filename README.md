@@ -11,7 +11,7 @@ first you have to create two repository /etc/zabbix/scripts and /etc/zabbix/scri
 
 then put all the scripts into /etc/zabbix/scripts  and modify the file "discovery"
 
-
+!!! you have to install sshpass !!!
 
 add the template and all will be ok !!
 
