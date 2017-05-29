@@ -7,4 +7,11 @@ https://github.com/gghuber/Zabbix-Template-IBM-Storage-Storwize-V3700
 
 i do correct this template and translate it into " english" (google trad)
 
-first you have to create two repository /etc/zabbix/
+first you have to create two repository /etc/zabbix/scripts and /etc/zabbix/scripts/repo
+
+then put all the scripts into /etc/zabbix/scripts  and modify the file discovery
+
+
+
+add the template and all will be ok !!
+
