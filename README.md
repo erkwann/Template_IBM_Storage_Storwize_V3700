@@ -10,6 +10,8 @@ i did correct this template and translate it into " english" (google trad)
 first you have to create two repository /etc/zabbix/scripts and /etc/zabbix/scripts/repo
 
 then put all the scripts into /etc/zabbix/scripts  and modify the file "discovery"
+add userparameter
+UserParameter=storwize.discovery[*],/etc/zabbix/scripts/ibmv3700_discovery.sh
 
 !!! you have to install sshpass !!!
 
