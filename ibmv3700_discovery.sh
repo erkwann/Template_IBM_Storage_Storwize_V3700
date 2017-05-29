@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-USER='superuser'
-PASSWORD='Password2015*'
+USER='ruser'
+PASSWORD='Password'
 SSHCMD='sshpass -p '$PASSWORD' ssh'
 REPODIR=/etc/zabbix/scripts/repo
-STORWIZEADDR='192.168.101.101'
+STORWIZEADDR='IP'
 
 system (){
         $SSHCMD $USER@$STORWIZEADDR "svcinfo lssystem; svcinfo lssystemstats; svcinfo lsenclosure" > ${REPODIR}/${STORWIZEADDR}.system.repo.tmp && mv ${REPODIR}/${STORWIZEADDR}.system.repo.tmp ${REPODIR}/${STORWIZEADDR}.system.repo
